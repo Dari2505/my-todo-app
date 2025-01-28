@@ -16,7 +16,7 @@ st.subheader("This is my todo APP.")
 st.write("This app is to increase your productivity")
 
 for index, todo in enumerate(todos):
-   checkbox = st.checkbox(todo, key = todo) #every element of todo.txt has a key.
+   checkbox = st.checkbox(todo, key = todo) #every element of t o d o.txt has a key
                                             # In this way we can manipulate an item by
                                             # grabbing at its key
    if checkbox:
